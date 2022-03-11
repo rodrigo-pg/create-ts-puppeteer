@@ -1,9 +1,8 @@
 {
-  "name": "@create-ts-bot",
+  "name": "create-ts-puppeteer",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "bin": "./bin/cli.js",
   "scripts": {
     "dev": "ts-node-dev src/index.ts --transpily-only --ignore-watch node_modules --respawn",
     "start": "node src/index.js",
