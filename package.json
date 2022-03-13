@@ -5,14 +5,16 @@
   "license": "MIT",
   "scripts": {
     "dev": "ts-node-dev src/index.ts --transpily-only --ignore-watch node_modules --respawn",
-    "start": "node src/index.js",
-    "postinstall": "tsc",
-    "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js"
+    "test": "jest"
   },
   "devDependencies": {
     "@types/colors": "^1.2.1",
-    "ts-node-dev": "^1.1.8",
+    "@types/jest": "^27.4.1",
+    "@types/jest-environment-puppeteer": "^5.0.0",
     "@types/node": "^16.11.1",
+    "jest": "^27.5.1",
+    "jest-puppeteer": "^6.1.0",
+    "ts-node-dev": "^1.1.8",
     "typescript": "^4.4.4"
   },
   "dependencies": {

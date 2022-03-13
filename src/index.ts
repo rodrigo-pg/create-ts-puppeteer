@@ -16,7 +16,7 @@ import colors from "colors"
             concurrency: Cluster.CONCURRENCY_CONTEXT
         });
 
-        cluster.queue(async ({ page }:Page) => {
+        cluster.queue(async ({ page }:any) => {
         });
         
         await cluster.idle();
